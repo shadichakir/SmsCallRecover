@@ -3,6 +3,7 @@
     package="dev.justforyou.smscallrecover">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"> </uses-permission>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
@@ -30,9 +31,6 @@
             android:theme="@android:style/Theme.Translucent" />
         <activity android:name=".AppUsedActivity" />
         <activity android:name=".RateActivity" />
-        <activity android:name=".PhotoOrVideoActivity" />
-        <activity android:name=".RestoredImagesActivity" />
-        <activity android:name=".LoaderActivity" />
         <activity android:name=".DateActivity" />
         <activity android:name=".SmsOrCallOrNumbersActivity" />
         <activity android:name=".LoadingActivity" />
